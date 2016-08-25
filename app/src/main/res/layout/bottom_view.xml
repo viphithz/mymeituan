@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/colorLightGray"
+    >
+
+    <LinearLayout
+        android:id="@+id/id_bottom_home_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/id_home_image"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:src="@drawable/selector_bottom_image_home"
+            android:duplicateParentState="true"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/home"
+            android:textSize="12sp"
+            android:textColor="@drawable/selector_bottom_text"
+            android:duplicateParentState="true"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/id_bottom_businessman_container"
+        android:layout_width="0dp"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:layout_weight="1"
+        android:clickable="true"
+        >
+
+        <ImageView
+            android:id="@+id/id_businessman_btn"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:duplicateParentState="true"
+            android:src="@drawable/selector_bottom_image_businessman"
+            android:scaleType="fitCenter"
+            android:layout_gravity="center_horizontal"
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/businessman"
+            android:textSize="12sp"
+            android:duplicateParentState="true"
+            android:textColor="@drawable/selector_bottom_text"
+            android:gravity="center_horizontal"
+            android:layout_gravity="center_horizontal"
+            />
+    </LinearLayout>
+
+</LinearLayout>
